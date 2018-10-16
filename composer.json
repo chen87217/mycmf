@@ -1,0 +1,21 @@
+{
+    "name": "chen87217/mycmf",
+    "description": "cmf Test",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "chen87217",
+            "email": "chen_87217@126.com"
+        }
+    ],
+    "require": {
+
+    },
+    "autoload":{
+        "psr-4":{
+            "Core\\":"core/",
+            "Controller\\":"app/controller/"
+        },
+        "files":[]
+    }
+}
